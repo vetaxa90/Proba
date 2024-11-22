@@ -32,9 +32,10 @@ def check():
             t = 0
     window.after(10000,check)
 
+
 def play_snd():
     pygame.mixer.init()
-    pygame.mixer.load("reminder.mp3")
+    pygame.mixer.music.load("reminder.mp3")
     pygame.mixer.music.play()
 
 
