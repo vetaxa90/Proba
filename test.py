@@ -8,7 +8,6 @@ y = 10
 print(x + y)
 
 
+z = 10
 
- z=20
- x=5
- print(z*x)
+print( x * z)
